@@ -9,10 +9,8 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         // Указываем URL Swagger и путь для сохранения TypeScript файла
-        String swaggerUrl = "https://team.dev.rubius.com/api/swagger/core/swagger.json"; // Путь к Swagger
+        String swaggerUrl = ""; // Путь к Swagger
         String outputPath = "/Users/aleksander/Developer/Rubius/team-rubius-back/api-clients/TypeScript/ApiClient.ts"; // Путь для сохранения TypeScript файла
-        //String nswagPath = "/resources/Nswag/nswag";
-        //String nswagPath = File(Objects.requireNonNull(javaClass.getResource("/NSwag/nswag")).toURI());
         String nswagPath = Objects.requireNonNull(Main.class.getResource("/NSwag/nswag")).getPath();
         try {
             deleteFileIfExists(outputPath);
