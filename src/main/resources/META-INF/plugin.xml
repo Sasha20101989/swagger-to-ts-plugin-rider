@@ -2,8 +2,8 @@
 
     <id>com.felyugin.plugins</id>
     <name>Swagger to TypeScript</name>
-    <version>1.1.2</version>
-    <vendor email="info@rubius.com" url="https://github.com/Sasha20101989">github.com/Sasha20101989</vendor>
+    <version>1.1.1</version>
+    <vendor email="feliugin@gmail.com" url="https://github.com/Sasha20101989">github.com/Sasha20101989</vendor>
     <depends>com.intellij.modules.platform</depends>
     <description>
         A plugin that generates a TypeScript API client from a Swagger JSON file.
