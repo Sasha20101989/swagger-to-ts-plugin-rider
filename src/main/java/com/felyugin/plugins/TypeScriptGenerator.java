@@ -72,23 +72,17 @@ public class TypeScriptGenerator {
 
     public static void replaceBaseUrl(String outputPath) {
         try {
-            // Читаем весь файл в строку
             String content = new String(Files.readAllBytes(Paths.get(outputPath)));
-
-            // Найдем строки, которые начинаются с "this.baseUrl = baseUrl ?? " и заканчиваются на ";"
+            
             int index = content.indexOf("this.baseUrl = baseUrl ?? \"http");
             while (index != -1) {
-                // Ищем конец строки (если она заканчивается на ";")
                 int endIndex = content.indexOf(";", index);
                 if (endIndex != -1) {
-                    // Заменяем строку на нужную
                     content = content.substring(0, index) + "this.baseUrl = baseUrl ?? this.baseApiClient;" + content.substring(endIndex + 1);
                 }
-                // Ищем следующее вхождение
                 index = content.indexOf("this.baseUrl = baseUrl ?? \"http", endIndex);
             }
-
-            // Сохраняем изменения в файл
+            
             Files.write(Paths.get(outputPath), content.getBytes());
 
             System.out.println("BaseUrl replaced successfully.");
@@ -100,16 +94,12 @@ public class TypeScriptGenerator {
 
     public static void addTsNoCheck(String outputPath) {
         try {
-            // Читаем весь файл в строку
             String content = new String(Files.readAllBytes(Paths.get(outputPath)));
-
-            // Ищем место, куда нужно добавить строку
+            
             int index = content.indexOf("/* eslint-disable */");
             if (index != -1) {
-                // Добавляем строки сразу после /* eslint-disable */
                 content = content.substring(0, index + "/* eslint-disable */".length()) + "\n// @ts-nocheck" + content.substring(index + "/* eslint-disable */".length());
 
-                // Сохраняем изменения в файл
                 Files.write(Paths.get(outputPath), content.getBytes());
 
                 System.out.println("Comments added successfully.");
@@ -121,5 +111,4 @@ public class TypeScriptGenerator {
             e.printStackTrace();
         }
     }
-
 }
