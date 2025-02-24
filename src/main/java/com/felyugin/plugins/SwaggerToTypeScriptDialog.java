@@ -13,7 +13,7 @@ import java.awt.*;
 
 public class SwaggerToTypeScriptDialog extends DialogWrapper {
     private final Project project;
-    private final JBTextField urlField = new JBTextField("https://team.dev.rubius.com/api/swagger/core/swagger.json");
+    private final JBTextField urlField = new JBTextField();
     private final TextFieldWithBrowseButton pathField = new TextFieldWithBrowseButton();
     private final JBTextField fileNameField = new JBTextField("ApiClient.ts");
 
