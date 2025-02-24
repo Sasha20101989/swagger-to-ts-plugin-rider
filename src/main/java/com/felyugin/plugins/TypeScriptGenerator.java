@@ -111,4 +111,26 @@ public class TypeScriptGenerator {
             e.printStackTrace();
         }
     }
+
+    public static void addImports(String outputPath) {
+        try {
+            String content = new String(Files.readAllBytes(Paths.get(outputPath)));
+
+            int index = content.indexOf("import axios, { AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse, CancelToken } from 'axios';");
+            if (index != -1) {
+                String imports = "\n\nimport { BaseApiClient } from './BaseApiClient';";
+                content = content.substring(0, index + "import axios, { AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse, CancelToken } from 'axios';".length()) + imports + content.substring(index + "import axios, { AxiosError, AxiosInstance, AxiosRequestConfig, AxiosResponse, CancelToken } from 'axios';".length());
+            } else {
+                String imports = "\nimport { BaseApiClient } from './BaseApiClient';";
+                content = imports + content;
+            }
+
+            Files.write(Paths.get(outputPath), content.getBytes());
+
+            System.out.println("Imports added successfully.");
+        } catch (IOException e) {
+            System.out.println("An error occurred while adding imports: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
 }

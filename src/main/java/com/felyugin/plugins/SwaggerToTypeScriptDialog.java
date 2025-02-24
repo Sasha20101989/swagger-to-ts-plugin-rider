@@ -75,6 +75,7 @@ public class SwaggerToTypeScriptDialog extends DialogWrapper {
 
         boolean result = TypeScriptGenerator.generateTypeScriptClient(url, outputFilePath);
         if (result) {
+            TypeScriptGenerator.addImports(outputFilePath);
             TypeScriptGenerator.replaceBaseUrl(outputFilePath);
             TypeScriptGenerator.addTsNoCheck(outputFilePath);
             FileUtils.openGeneratedFileInRider(outputFilePath, project);
