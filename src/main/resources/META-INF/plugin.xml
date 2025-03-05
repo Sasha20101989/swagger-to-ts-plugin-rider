@@ -1,9 +1,9 @@
 <idea-plugin>
 
-    <id>com.felyugin.plugins</id>
-    <name>Swagger to TypeScript</name>
-    <version>1.1.1</version>
-    <vendor email="feliugin@gmail.com" url="https://github.com/Sasha20101989">github.com/Sasha20101989</vendor>
+    <id>com.rubius.plugins.auto-api</id>
+    <name>Auto api</name>
+    <version>1.1.2</version>
+    <vendor email="info@rubius.com" url="https://rubius.com/">Rubius</vendor>
     <depends>com.intellij.modules.platform</depends>
     <description>
         A plugin that generates a TypeScript API client from a Swagger JSON file.
@@ -11,10 +11,10 @@
         into TypeScript clients with axios support and request parameter handling.
     </description>
     <actions>
-        <action id="com.felyugin.plugins.SwaggerToTypeScriptPlugin"
-                class="com.felyugin.plugins.SwaggerToTypeScriptPlugin"
-                text="Generate TypeScript Api Client"
-                description="Generates TypeScript API client from Swagger JSON">
+        <action id="com.rubius.plugins.AutoApiPlugin"
+                class="com.rubius.plugins.AutoApiPlugin"
+                text="Generate Api Clients"
+                description="Generates API clients from Swagger JSON">
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift W"/>
             <add-to-group group-id="ToolsMenu.Services" />
             <add-to-group group-id="EditorPopupMenu" />

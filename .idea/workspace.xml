@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="979f64b9-8770-446d-89ae-15bc7c4c891d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,18 +29,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SwaggerToTypeScript" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SwaggerToTypeScript" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SwaggerToTypeScript" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="web.back.plugin.auto-api" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -53,7 +43,6 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,6 +52,10 @@
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -71,30 +64,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Unnamed.executor": "Run",
-    "Gradle.Build SwaggerToTypeScript.executor": "Run",
-    "Gradle.Download IntelliJ Platform sources.executor": "Run",
-    "Gradle.SwaggerToTypeScript [:com.rubius.plugins.Main.main()].executor": "Run",
-    "Gradle.SwaggerToTypeScript [assemble].executor": "Run",
-    "Gradle.SwaggerToTypeScript [build].executor": "Run",
-    "Gradle.SwaggerToTypeScript [check].executor": "Run",
-    "Gradle.SwaggerToTypeScript [classes].executor": "Run",
-    "Gradle.SwaggerToTypeScript [clean].executor": "Run",
-    "Gradle.SwaggerToTypeScript [jar].executor": "Debug",
-    "Gradle.SwaggerToTypeScript [setupDependencies].executor": "Run",
-    "Gradle.SwaggerToTypeScript [testClasses].executor": "Run",
-    "Gradle.SwaggerToTypeScript [wrapper].executor": "Run",
-    "Gradle.swagger-to-ts-plugin-rider [:com.felyugin.plugins.Main.main()].executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/aleksander/Developer/MyApps/swagger-to-ts-plugin-rider",
-    "onboarding.tips.debug.path": "/Users/aleksander/Developer/Rubius/SwaggerToTypeScript/src/main/java/com/rubius/plugins/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Unnamed.executor&quot;: &quot;Coverage&quot;,
+    &quot;Gradle.Build SwaggerToTypeScript.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build web.back.plugin.auto-api.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download IntelliJ Platform sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SwaggerToTypeScript [:com.rubius.plugins.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SwaggerToTypeScript [assemble].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SwaggerToTypeScript [build].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SwaggerToTypeScript [check].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SwaggerToTypeScript [classes].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SwaggerToTypeScript [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SwaggerToTypeScript [jar].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.SwaggerToTypeScript [setupDependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SwaggerToTypeScript [testClasses].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SwaggerToTypeScript [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.auto-api [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.web.back.plugin.auto-api [:com.rubius.plugins.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.web.back.plugin.auto-api [buildPlugin].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.web.back.plugin.auto-api [runIde].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aleksander/Developer/Rubius/auto-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/aleksander/Developer/Rubius/SwaggerToTypeScript/src/main/java/com/rubius/plugins/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/NSwag/.store/nswag.consolecore/14.2.0/nswag.consolecore/14.2.0/tools/net8.0/any" />
@@ -104,30 +109,17 @@
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.felyugin.plugins.Main" />
-      <module name="SwaggerToTypeScript.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.felyugin.plugins.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.rubius.plugins.Main" />
-      <module name="SwaggerToTypeScript.main" />
+      <module name="web.back.plugin.auto-api.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwaggerToTypeScript [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="auto-api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -149,12 +141,12 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SwaggerToTypeScript [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="auto-api [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -171,7 +163,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SwaggerToTypeScript [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="auto-api [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -193,7 +185,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SwaggerToTypeScript [testClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="web.back.plugin.auto-api [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -204,7 +196,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="testClasses" />
+            <option value="buildPlugin" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -215,23 +207,55 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="web.back.plugin.auto-api [runIde]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runIde" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SwaggerToTypeScript.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SwaggerToTypeScript.main" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Gradle.SwaggerToTypeScript [check]" />
-      <item itemvalue="Gradle.SwaggerToTypeScript [build]" />
-      <item itemvalue="Gradle.SwaggerToTypeScript [jar]" />
-      <item itemvalue="Gradle.SwaggerToTypeScript [testClasses]" />
+      <item itemvalue="Gradle.web.back.plugin.auto-api [buildPlugin]" />
+      <item itemvalue="Gradle.web.back.plugin.auto-api [runIde]" />
+      <item itemvalue="Gradle.auto-api [build]" />
+      <item itemvalue="Gradle.auto-api [check]" />
+      <item itemvalue="Gradle.auto-api [jar]" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Gradle.SwaggerToTypeScript [build]" />
-        <item itemvalue="Gradle.SwaggerToTypeScript [check]" />
-        <item itemvalue="Gradle.SwaggerToTypeScript [jar]" />
-        <item itemvalue="Gradle.SwaggerToTypeScript [testClasses]" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-f9f52b72c171-intellij.indexing.shared.core-IU-251.22821.72" />
+        <option value="bundled-js-predefined-d6986cc7102b-7af238ef196b-JavaScript-IU-251.22821.72" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -241,23 +265,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740156277108</updated>
+      <workItem from="1740478529344" duration="746000" />
+      <workItem from="1740479680588" duration="1052000" />
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rubius/plugins/Main.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/rubius/plugins/Main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/web_back_plugin_auto_api$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1740479134779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
