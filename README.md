@@ -70,5 +70,5 @@ Auto API — это плагин для IntelliJ IDEA, который генер
   [1.1.1](https://tfs.rubius.com/RubiusGroupProjects/DevelopmentTemplates/_git/web.back.plugin.auto-api?path=%2Freleases%2Fweb.back.plugin.auto-api_1.1.1.zip)
   - Добавлена поддержка IntelliJ IDEA(Windows), Rider(Windows)
   [1.1.2](https://tfs.rubius.com/RubiusGroupProjects/DevelopmentTemplates/_git/web.back.plugin.auto-api?path=%2Freleases%2Fweb.back.plugin.auto-api_1.1.2.zip)
-  - - Поддержка генерации CSharp клиентов с использованием Swagger JSON для IntelliJ IDEA(Apple Silicon), Rider(Apple Silicon), IntelliJ IDEA(Windows), Rider(Windows)
+  - Поддержка генерации CSharp клиентов с использованием Swagger JSON для IntelliJ IDEA(Apple Silicon), Rider(Apple Silicon), IntelliJ IDEA(Windows), Rider(Windows)
   [1.1.3](https://tfs.rubius.com/RubiusGroupProjects/DevelopmentTemplates/_git/web.back.plugin.auto-api?path=%2Freleases%2Fweb.back.plugin.auto-api_1.1.3.zip)
