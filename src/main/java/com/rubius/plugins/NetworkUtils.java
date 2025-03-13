@@ -1,5 +1,7 @@
 package com.rubius.plugins;
 
+import com.intellij.openapi.ui.Messages;
+
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URI;

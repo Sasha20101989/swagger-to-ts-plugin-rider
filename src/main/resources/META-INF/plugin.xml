@@ -2,20 +2,28 @@
 
     <id>com.rubius.plugins.auto-api</id>
     <name>Auto api</name>
-    <version>1.1.2</version>
+    <version>1.1.3</version>
     <vendor email="info@rubius.com" url="https://rubius.com/">Rubius</vendor>
     <depends>com.intellij.modules.platform</depends>
     <description>
-        A plugin that generates a TypeScript API client from a Swagger JSON file.
+        A plugin that generates a TypeScript and CSharp API clients from a Swagger JSON file.
         It allows developers to automatically transform OpenAPI specifications
         into TypeScript clients with axios support and request parameter handling.
     </description>
     <actions>
-        <action id="com.rubius.plugins.AutoApiPlugin"
-                class="com.rubius.plugins.AutoApiPlugin"
-                text="Generate Api Clients"
-                description="Generates API clients from Swagger JSON">
+        <action id="com.rubius.plugins.AutoApiTsPlugin"
+                class="com.rubius.plugins.AutoApiTsPlugin"
+                text="Generate Ts Api Clients"
+                description="Generates ts API clients from Swagger JSON">
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift W"/>
+            <add-to-group group-id="ToolsMenu.Services" />
+            <add-to-group group-id="EditorPopupMenu" />
+        </action>
+        <action id="com.rubius.plugins.AutoApiCsPlugin"
+                class="com.rubius.plugins.AutoApiCsPlugin"
+                text="Generate Cs Api Clients"
+                description="Generates cs API clients from Swagger JSON">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift E"/>
             <add-to-group group-id="ToolsMenu.Services" />
             <add-to-group group-id="EditorPopupMenu" />
         </action>

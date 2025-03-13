@@ -13,11 +13,10 @@ import java.util.jar.JarFile;
 
 public class TypeScriptGenerator {
     public static boolean generateTypeScriptClient(String swaggerUrl, String outputPath, String os) {
-        if (!NetworkUtils.isUrlAccessible(swaggerUrl)) {
-            Messages.showErrorDialog("Swagger URL is not accessible: " + swaggerUrl +
-                    "\nPlease check the URL and your network connection.", "Error");
-            return false;
-        }
+//        if (!NetworkUtils.isUrlAccessible(swaggerUrl)) {
+//            Messages.showErrorDialog("Swagger URL is not accessible: " + swaggerUrl +
+//                    "\nPlease check the URL and your network connection.", "Error");
+//        }
 
         ClassLoader classLoader = TypeScriptGenerator.class.getClassLoader();
         String resourceFolder = "NSwag";
